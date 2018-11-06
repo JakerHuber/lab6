@@ -43,10 +43,14 @@
       
       function myEventFunction(){
         alert('Hello Jake');
+        confirm('Hello Jake'); 
+        prompt('Hello Jake');
       }
       
       var f1 = document.getElementByID('entrybutton');
+      var a  = document.getElementById('entrybutton');
       f1.addEventListener('click', myEventFunction);
+      f1.addEventListener()
       
       
       /* Add Event Listener to Alert Me Div
@@ -71,6 +75,13 @@
       
       
       /* Change the value of the h2 below the button. */
+      
+      //Testing Object Literal format
+      var myObject = {
+        stringProp: 'some string',
+        numProp: 2,
+        booleanProp: false
+      };
       
       
       
