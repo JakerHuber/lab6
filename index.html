@@ -36,6 +36,30 @@
       <h2 id="textoutput" class="center">Show results here</h2>
     </div>
     <script type="text/javascript">
+      /* Add Event Listener to Alert Me Div */
+      object.addEventListener("click", myFunction);
+      object.attachEvent('onclick', modifyText);
+      
+      function addEventHandler(elem,eventType,handler) 
+      {
+        if (elem.addEventListener)
+        {
+          elem.addEventListener(eventType,handler,false);
+        }
+        else if (elem.attachEvent)
+        {
+          elem.attachEvent('on' + eventType,handler);
+        }
+      }
+  
+      /* Show an Alert box. Append name. */
+
+      
+      
+      /* Change the value of the h2 below the button. */
+      
+      
+      
     </script>
   </body>
 </html>
