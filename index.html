@@ -41,8 +41,15 @@
       var = test;
       test2 = 1;
       
+      function myEventFunction(){
+        alert('Hello Jake');
+      }
       
-      /* Add Event Listener to Alert Me Div */
+      var f1 = document.getElementByID('entrybutton');
+      f1.addEventListener('click', myEventFunction);
+      
+      
+      /* Add Event Listener to Alert Me Div
       object.addEventListener("click", myFunction);
       object.attachEvent('onclick', modifyText);
       
@@ -57,6 +64,7 @@
           elem.attachEvent('on' + eventType,handler);
         }
       }
+      */
   
       /* Show an Alert box. Append name. */
 
