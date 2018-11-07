@@ -47,28 +47,16 @@
       
       // Add Event Listener to Alert Me Div
       function myEventFunction(){
-        var text = 'test';
-        alert('Jacob Huebner:' + text);
+        var text = document.getElementById('entryinput').value;
+        //var text2 = document.getElementsByName('textentry')[0].value; this also works
+        alert('Jacob Huebner: ' + text);
+        document.getElementById("textoutput").innerHTML = text;
+        
       }
       var f1 = document.getElementById('entrybutton');
       f1.addEventListener('click', myEventFunction); 
       
   
-      /* Show an Alert box. Append name. */
-
-      
-      
-      /* Change the value of the h2 below the button. */
-      
-      //Testing Object Literal format
-      var myObject = {
-        stringProp: 'some string',
-        numProp: 2,
-        booleanProp: false
-      };
-      
-      
-      
     </script>
   </body>
 </html>
