@@ -36,40 +36,23 @@
       <h2 id="textoutput" class="center">Show results here</h2>
     </div>
     <script type="text/javascript">
-      //testing
-      
-      var test;
-      test2 = 1;
-      
-      function myEventFunction(){
-        alert('Hello Jake');
-      }
-      
-      var f1 = document.getElementById('entrybutton');
-      f1.addEventListener('click', myEventFunction);
-      
+      /*testing
       var f2 = document.getElementById('textoutput');
       f2.value;
       alert(f2.value);
       f2.value = "new value";
       alert(f2.value);
-      
-      /* Add Event Listener to Alert Me Div
-      object.addEventListener("click", myFunction);
-      object.attachEvent('onclick', modifyText);
-      
-      function addEventHandler(elem,eventType,handler) 
-      {
-        if (elem.addEventListener)
-        {
-          elem.addEventListener(eventType,handler,false);
-        }
-        else if (elem.attachEvent)
-        {
-          elem.attachEvent('on' + eventType,handler);
-        }
-      }
       */
+      
+      
+      // Add Event Listener to Alert Me Div
+      function myEventFunction(){
+        var text = 'test';
+        alert('Jacob Huebner:' + text);
+      }
+      var f1 = document.getElementById('entrybutton');
+      f1.addEventListener('click', myEventFunction); 
+      
   
       /* Show an Alert box. Append name. */
 
